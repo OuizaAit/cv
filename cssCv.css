@@ -4,16 +4,6 @@ h1 {
  
 }
 
-.cv{
-width : 950px;
-margin : auto;
-font-size : 15px;
-font-family : 'Source sans Pro',Calibri, Tahama, sans-serif;
-border: solid 2px blue;
-padding :15px;
-background-color: PowderBlue;
-}
-
 form.recherche {
 	position: absolute;
 	top: 6em;
