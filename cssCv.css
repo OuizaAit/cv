@@ -1,27 +1,104 @@
-h1
-{
-  color: green;
-  text-align: center;
-  margin-left: 40px;
-  }
+h1 {
+ color: purple;
+ text-align: center;
+ 
+}
+
+.cv{
+width : 950px;
+margin : auto;
+font-size : 15px;
+font-family : 'Source sans Pro',Calibri, Tahama, sans-serif;
+border: solid 2px blue;
+padding :15px;
+background-color: PowderBlue;
+}
+
+form.recherche {
+	position: absolute;
+	top: 6em;
+}
   
- h2
-{
-  color: gray;
-  margin-left: 20px;
+.contact_global{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;  
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 100px;
+	font-family: Verdana, sans-serif;
+	text-align: justify;
+}
+.photo{
+	position: absolute;
+    top: 	220px;
+    right: 200px;
+    width: 70vm;
+	}
+.Formation{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
+
+}
+.Experience{
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+    font-family: Verdana, sans-serif;
+	text-align: justify
+
 }
 
-
-h3
+.Competences
 {
-  font-style: italic;
-  margin-left: 20px;
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
 }
 
-h4
+.autre
 {
- color: gray;
- font-style: italic;
- margin-left: 20px;
+	border-width:4px;
+	border-style:solid;
+	border-color:pink;
+	width:70vw;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 10px;
+	font-family: Verdana, sans-serif;
+	text-align: justify
 }
 
+body
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	background-color: AE4D92;
+}
+.mdl-slider__container {
+    background-color: Khaki !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
