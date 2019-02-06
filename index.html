@@ -2,42 +2,81 @@
 <html lang="fr">
 <meta charset="UTF-8">
 
-	<html>
-		<head>
-			<link rel="stylesheet" href= "cssCv.css">
-			<title> Curriculum Vitae AIT KACI ARAB Ouiza</title>
-		</head>
-		<body>
-		<h1>Curriculum Vitae </h1>
-		<h2>AIT KACI ARAB Ouiza</h2>
-		<h3>Etudiante en Master Compétences Complémentaires en Informatique</h3>
-		<h4>
-			Adresse: 154 cours Emile Zola
-			Villeurbanne 69100 France
-		</h4>
-		<p>e-mail: aitkaciarabo@gmail.com </p>
-		</body>
+<html>
+	<head>
+		<link rel="stylesheet" href= "cssCv.css">
+		<title> Curriculum Vitae AIT KACI ARAB Ouiza</title>
+		<meta charest="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="cv.css" >
+			   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Include material design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- include stylesheet from material design -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <!-- include javascript needed for material design -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type = "text/javascript" src = "2.js" ></script>
+	</head>
 		
-		<body>
-			<h1>Formation</h1>
-			<h2> Master Competence Complementaire en Informatique</h2>
+<header>
+     <table class=table >
+					<td style="width:350px;"><h3><a href="#Contact">Me contacter</a></h3></td>
+					<td style="width:350px;"><h3><a href="#Competences">Compétences</a></h3></td>
+					<td style="width:350px;"><h3><a href="#Experiences">Expériences</a></h3></td>
+					<td style="width:350px;"><h3><a href="#Formation">Formations</a></h3></td>
+					<td style="width:350px;"><h3><a href="#autre">Autres</a></h3></td>
+				</table>
+      
+      <form  class=recherche>
+        <input type="search" name="q" placeholder="Recherchez...">
+        <input type="submit" value="OK">
+      </form>
+ </header>
+<body>
+<!-- Default Slider -->
+	<input id="progress_bar" oninput="myScroll()" class="mdl-slider__container" type="range" min="0" max="100" value="45" tabindex="0">
+	<cv>
+		<div class="titre">  </div>
+		<div class="contact_global"> 
+		<div class="contact"> 
+		<h2 id="Contact">AIT KACI ARAB Ouiza</h2>
+		<h3>Etudiante en Master Compétences </h3>
+		<h3> Complémentaires en Informatique</h3>
+		<h5>
+			154 cours Emile Zola
+			Villeurbanne 69100 France
+		</h5>
+		<p color = "blue" > e-mail: aitkaciarabo@gmail.com </p>
+		</div>
+		<div class = "photo">
+					<img src="Photo.jpg" alt="photo du cv de ouiza AIT KACI ARAB" width="180"/>
+				</div>
+		</div>
+		
+		<div class="Formation">
+			<h1 id ="Formation" >Formation</h1>
+			<hr color="pink"></hr>
+			<h2>  Master Compétences Complémentaires en Informatique </h2>
 			<p> Université Claude Bernard Lyon 1 Villeurbanne 69100  France</p>
-			<p> année formation 2018/2019  </p>
+			<h5> Année formation 2018/2019  </h5>
 			<a href="http://master-info.univ-lyon1.fr/CCI" > Site de l'univérsité </a>
 	
 			<h2> Master en Génie Pétrolier Réservoir </h2>
 			<p>	Université de Pau et des pays de l'Adour Pau 64000 France</p>
-			<p> année formation 2016/2018  </p>
+			<h5> Année formation 2016/2018  </h5>
 			<a href="https://formation.univ-pau.fr/fr/catalogue/sciences-technologies-sante-STS/master-14/master-genie-petrolier-petroleum-engineering-program-62-1-2-2/m1-m2-parcours-reservoirs-subprogram-93-1.html</p>https://formation.univ-pau.fr/fr/catalogue/sciences-technologies-sante-STS/master-14/master-genie-petrolier-petroleum-engineering-program-62-1-2-2/m1-m2-parcours-reservoirs-subprogram-93-1.html	" > Site de l'univérsité </a>
 
-			<h2> Licence en Génie Pétrolier Production des hydrocarbures</h2>
+			<h2> Licence en Génie Pétrolier Production des Hydrocarbures</h2>
 			<p>  Univérsité M'hammed Bouguerra, Boumerdes, Algérie </p>
-			<p> année formation 2012/2015  </p>
+			<h5> Année formation 2012/2015  </h5>
 			<a href="https://www.univ-boumerdes.dz/Formation.html#verticalTab1?id=2 " > Site de l'univérsité </a>
-		</body>
+		</div>
 		
-		<body>
-			<h1>Experience</h1>
+		<div class="Experience">
+			<h1 id="Experience">Experience</h1>
+			<hr color="pink"></hr>
 			<h2> Stagiaire à Go GeoEngineering, Multi-Fractured Horizontal Well Productivity</h2>
 			<h4> Go GeoEngineering ,Pau France</h4>
 			<h5> date: Avril 2018 </h5>
@@ -75,10 +114,11 @@
 				Analyse des résultats de well tests et Interprétation
 			</p>
 			<a href="https://sonatrach.com/ " > Site Société</a>
-		</body>
+		</div>
 		
-	<body>
-		<h1>Compétences et Projets </h1>
+	<div class="Competences"> 
+		<h1 id="Compétences">Compétences et Projets </h1>
+		<hr color="pink"></hr>
 		<h2>Projets Académique </h2>
 			<p> Projet: (6mois) Simulation par Eclipse de la récupération par la méthode de smart water injection <p>
 			<p> Projet: (6mois) Exploitation du gaz de schiste par Forage Horizontal et Fracturations Hydrauliques <p>
@@ -100,10 +140,11 @@
 	<li> Arab		</li>
 	</ul>
 	
-	</body>
+	</div>
 	
-     <body>	
-		 <h1> Autres </h1>		
+     <div class="autre">	
+		 <h1 id="Autres"> Autres </h1>	
+		 <hr color="pink"></hr>		 
 			<dl >
 				<dt> AGENT DE BIBLIOTHEQUE  </dt>
 				<dd>Reception du public et rangement des livres</dd>
@@ -113,4 +154,6 @@
 				<dd> Croix rouge de PAU , France </dd>
 			</dl>
 
-     </body>
+     </dl>
+	 </cv>
+</body>
